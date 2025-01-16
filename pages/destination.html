@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shravya Tours and Travels</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-[#f5e5e0] shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center py-3 px-4 max-w-full">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="../assets/images/logo.jpg" alt="Shravya Tours & Travels Logo" class="h-12 mr-2">
+        <a href="#" class="text-2xl font-bold text-red-600">Shravya Tours & Travels</a>
+      </div>
+  
+      <!-- Mobile Menu Toggle -->
+      <button id="menuToggle" class="md:hidden">
+        <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+  
+      <!-- Navigation Menu -->
+      <nav class="hidden md:flex space-x-4 text-gray-700">
+        <a href="../index.html#home" class="hover:text-red-600 text-red-600 font-semibold">Home</a>
+        <a href="../index.html#about" class="hover:text-red-600">About Us</a>
+        <a href="../index.html#services" class="hover:text-red-600">Services</a>
+        <a href="#" class="hover:text-red-600">Destinations</a>
+        <a href="../index.html#reviews" class="hover:text-red-600">Reviews</a>
+        <a href="../index.html#contact" class="hover:text-red-600">Contact</a>
+      </nav>
+  
+      <!-- Action Buttons -->
+      <div class="hidden md:flex space-x-3">
+        <a href="#contact" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition">
+          Book Now
+        </a>
+        <a href="tel:9552749561" class="bg-green-600 text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-green-700 transition">
+          <i class="fas fa-phone-alt"></i>
+          <span>9552749561</span>
+        </a>
+        <a href="tel:9359096003" class="bg-green-600 text-white px-4 py-2 rounded-md flex items-center space-x-2 hover:bg-green-700 transition">
+          <i class="fas fa-phone-alt"></i>
+          <span>9359096003</span>
+        </a>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-[#f5e5e0] py-4 px-4 space-y-3">
+      <a href="../index.html#home" class="block text-gray-700 hover:text-red-600 font-semibold">Home</a>
+      <a href="../index.html#about" class="block text-gray-700 hover:text-red-600">About Us</a>
+      <a href="../index.html#services" class="block text-gray-700 hover:text-red-600">Services</a>
+      <a href="#" class="block text-gray-700 hover:text-red-600">Destinations</a>
+      <a href="../index.html#reviews" class="block text-gray-700 hover:text-red-600">Reviews</a>
+      <a href="index.html#contact" class="block text-gray-700 hover:text-red-600">Contact</a>
+  
+      <!-- Book Now Button -->
+      <a href="../index.html#contact" class="block bg-red-600 text-white text-center font-medium py-2 rounded-md hover:bg-red-700">
+        Book Now
+      </a>
+  
+      <!-- Call Options -->
+      <div class="flex flex-col space-y-2">
+        <a href="tel:9552749561" class="flex items-center justify-center bg-green-600 text-white py-2 rounded-md hover:bg-green-700">
+          <i class="fas fa-phone-alt mr-2"></i>
+          <span>9552749561</span>
+        </a>
+        <a href="tel:9359096003" class="flex items-center justify-center bg-green-600 text-white py-2 rounded-md hover:bg-green-700">
+          <i class="fas fa-phone-alt mr-2"></i>
+          <span>9359096003</span>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+      
+
+  <!-- Hero Section -->
+  <section class="bg-[#e0f2fe] py-16 text-center">
+    <h2 class="text-4xl font-bold text-gray-800">Explore Our Destinations</h2>
+    <p class="text-gray-600 mt-4 max-w-xl mx-auto">
+      Discover the beauty of travel with Shravya Tours and Travels. From serene landscapes to bustling cities, our curated journeys ensure unforgettable memories.
+    </p>
+  </section>
+
+  <!-- Destinations Grid -->
+<section class="py-12">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+      <!-- Destination Card -->
+      <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+        <img src="../assets/images/Akkalkot.jpg" alt="Hill Station" class="h-48 w-full object-cover">
+        <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Akkalkot
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+        <img src="../assets/images/astavinayak.jpeg" alt="Historic Forts" class="h-48 w-full object-cover">
+        <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+        Ashtavinayaka
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+        <img src="../assets/images/shirdi.jpg" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+        <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Shirdi
+        </div>
+      </div>
+      <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+        <img src="../assets/images/mumbai.jpeg" alt="Beach Getaways" class="h-48 w-full object-cover">
+        <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+          Mumbai
+        </div>
+      </div>
+    </div>
+
+    <!--line 2-->
+
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+        <!-- Destination Card -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/nashik.jpeg" alt="Hill Station" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+              Nashik
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/ganaptpule.jpeg" alt="Historic Forts" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+         Ganapatipule
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/kokan.jpeg" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+              Kokan
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/kolhapur.jpeg" alt="Beach Getaways" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Kolhapur
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--line 2-->
+
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+        <!-- Destination Card -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/kas.jpeg" alt="Hill Station" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+              Kas Pathar Satara
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/those.jpeg" alt="Historic Forts" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Thoseghar Falls
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/mahab.jpeg" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Mahabaleshwar
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/lohagad.jpeg" alt="Beach Getaways" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Lohagad Fort
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Social Media Sidebar -->
+  <div class="fixed right-4 top-1/2 transform -translate-y-1/2 space-y-4">
+    <a href="https://www.facebook.com/ranjeet.gade.315?mibextid=ZbWKwL " class="block bg-red-500 text-white p-3 rounded-full shadow hover:bg-red-600 transition">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/shravyatourstravels?utm_source=qr&igsh=NXZkamNmMXYydHB4"
+      class="block bg-red-500 text-white p-3 rounded-full shadow hover:bg-red-600 transition">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://whatsapp.com/channel/0029Vb1rKO1BvvsbBvaROT2z" class="block bg-red-500 text-white p-3 rounded-full shadow hover:bg-red-600 transition">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  </section>
+      <!--line 3-->
+
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+        <!-- Destination Card -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/mathe.jpg" alt="Hill Station" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Matheran
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Khandala.jpeg" alt="Historic Forts" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Khandala
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Pateshwar Temple.jpeg" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Pateshwar Temple
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/sajjangad.jpeg" alt="Beach Getaways" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Sajjangad 
+          </div>
+        </div>
+      </div>
+
+      <!--line 3-->
+
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+        <!-- Destination Card -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/benglore.webp" alt="Hill Station" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Bangalore
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Akaluj.webp" alt="Historic Forts" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Akaluj
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Goa.webp" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Goa
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/koyana.jpg" alt="Beach Getaways" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Koyana Wildlife
+          </div>
+        </div>
+      </div>
+
+       <!--line 3-->
+
+       <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-full p-4">
+        <!-- Destination Card -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Wai.webp" alt="Hill Station" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Wai
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/wet.jpg" alt="Historic Forts" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Wet & Joy
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/murud.avif" alt="Pilgrimage Sites" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+          Murud Janjira
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden transform transition hover:scale-105 hover:-translate-y-2 hover:shadow-lg">
+          <img src="../assets/images/Palghar.avif" alt="Beach Getaways" class="h-48 w-full object-cover">
+          <div class="p-4 bg-[#bd8f6c] text-white text-center text-3xl font-bold">
+            Palghar
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+  
+
+  <section class="bg-pink-50 py-12 max-width-full m-2">
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    <!-- Contact Information -->
+    <div class="text-center md:text-left">
+        <h2 class="text-xl md:text-2xl font-bold text-red-800 justify-center">Welcome to Shravya Tours & Travels</h2><br><br>
+      <ul class="space-y-4">
+        <li class="flex items-center justify-center md:justify-start space-x-3">
+          <span class="text-xl text-red-600">📞</span>
+          <a href="tel:9552749561" class="text-gray-700 hover:text-red-600 text-lg font-medium">
+            +91 9552749561
+          </a>
+        </li>
+        <li class="flex items-center justify-center md:justify-start space-x-3">
+          <span class="text-xl text-red-600">📧</span>
+          <a href="mailto:shravya.travels@gmail.com" class="text-gray-700 hover:text-red-600 text-lg font-medium">
+            shravya.travels@gmail.com
+          </a>
+        </li>
+        <li class="flex items-start justify-center md:justify-start space-x-3">
+          <span class="text-xl text-red-600">📍</span>
+          <p class="text-gray-700 text-lg leading-relaxed">
+            Vighanharta Colony, <br />
+            Shahupuri, Kondve, <br />
+            Satara, Maharashtra 415002 <br />
+            India
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Map -->
+    <div class="md:col-span-2">
+      <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">CLICK HERE FOR DIRECTIONS</h3>
+      <div class="rounded-lg overflow-hidden shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.7524786276613!2d73.97499097521771!3d17.70914928323395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2396f3118d133%3A0xcd08858c0742cb9a!2sShravya%20tours%20and%20traves%20satara!5e0!3m2!1sen!2sin!4v1736062508629!5m2!1sen!2sin"
+          width="100%"
+          height="400"
+          class="border-0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+    </div>
+
+</section>
+ <div class="bg-[#f5e5e0]">
+  <!-- Bottom Section -->
+  <div class="border-t border-gray-200 mt-12 pt-6 text-center">
+    <p class="text-gray-500 text-sm">
+      © 2025 Developed By
+      <a href="https://17pranali.github.io/Pranali-Portfolio/" class="font-semibold text-red-600 hover:underline">Pranali Kshirsagar</a>
+    </p>
+    <p class="text-gray-500 text-sm mt-2">
+      Total Visitors: <span class="font-bold text-gray-800">00446</span>
+    </p>
+    <div class="mt-4 flex justify-center space-x-6">
+      <a href="#" class="text-gray-500 hover:text-red-600 text-2xl">🌐</a>
+      <a href="#" class="text-gray-500 hover:text-red-600 text-2xl">📘</a>
+      <a href="#" class="text-gray-500 hover:text-red-600 text-2xl">📸</a>
+    </div>
+ </div>
+  
+
+
+ <script>
+
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        if (menuToggle && mobileMenu) {
+            menuToggle.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                console.log('Menu toggled. Visible:', !mobileMenu.classList.contains('hidden'));
+            });
+        } else {
+            console.error('Menu toggle or mobile menu not found in DOM.');
+        }
+    });
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
